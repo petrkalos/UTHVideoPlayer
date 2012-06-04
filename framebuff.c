@@ -3,7 +3,7 @@
 #include <strsafe.h>
 #include <stdio.h>
 
-#define BUFFSIZE 10
+#define BUFFSIZE 25
 CRITICAL_SECTION cs;
 
 HANDLE frameReaderThread = 0;
@@ -14,9 +14,7 @@ int frameNum=0;
 int write_c=0;                 //to remeber total number of products in buffer
 int read_c=0;
 
-
 rgb buff[BUFFSIZE];
-
 
 void getNextFrame(){
 	int i,j;
@@ -36,8 +34,7 @@ void getNextFrame(){
 
 DWORD WINAPI readerThread( LPVOID lpParam ) 
 {
-	int i,j;
-	
+	int i;
 	while(1){		
 		WaitForSingleObject(Empty,INFINITE);
 		EnterCriticalSection(&cs);
