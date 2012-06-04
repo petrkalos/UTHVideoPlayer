@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "videoplayer", "videoplayer.vcxproj", "{B59B498C-F6AE-4466-9AEF-17AB8A09483C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Release2|Win32 = Release2|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B59B498C-F6AE-4466-9AEF-17AB8A09483C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B59B498C-F6AE-4466-9AEF-17AB8A09483C}.Debug|Win32.Build.0 = Debug|Win32
+		{B59B498C-F6AE-4466-9AEF-17AB8A09483C}.Release|Win32.ActiveCfg = Release|Win32
+		{B59B498C-F6AE-4466-9AEF-17AB8A09483C}.Release|Win32.Build.0 = Release|Win32
+		{B59B498C-F6AE-4466-9AEF-17AB8A09483C}.Release2|Win32.ActiveCfg = Release2|Win32
+		{B59B498C-F6AE-4466-9AEF-17AB8A09483C}.Release2|Win32.Build.0 = Release2|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
